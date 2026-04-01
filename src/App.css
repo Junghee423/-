@@ -47,45 +47,17 @@ h1 {
   transition: background-color 0.2s;
 }
 
-.search-button:disabled {
-  background-color: #939ca1;
-}
-
 .search-button:hover {
   background-color: #1976d2;
 }
 
 /* TODO: 자동완성 목록 스타일 */
-
-.autocomplete-list {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  list-style: none;
-  background-color: white;
-  border: 2px solid #e0e0e0;
-  border-radius: 8px;
-  outline: none;
-  transition: border-color 0.2s;
-}
-
-.autocomplete-item {
-  display: flex;
-  gap: 8px;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.autocomplete-item.selected {
-  background-color: rgb(136, 188, 233);
-}
-
-.autocomplete-item:hover {
-  background-color: aliceblue;
-}
-
+/* 
+.autocomplete-list { }
+.autocomplete-item { }
+.autocomplete-item.selected { }
+.autocomplete-item:hover { }
+*/
 
 /* TODO: 최근 검색어 스타일 */
 /*
